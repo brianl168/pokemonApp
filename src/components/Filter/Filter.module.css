@@ -1,0 +1,73 @@
+.filters{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.buttons{
+    padding-right: 90px;
+}
+
+.typeBUTTON{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto;
+    margin-left: 15px;
+}
+
+#bgbutton{
+    padding-bottom: 90px;
+}
+
+.buttons {
+    width: 200px;
+    height: 60px;
+    color: #ebd724;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    border: none;
+    border-top: 2px solid #ebd724;
+    border-bottom: 2px solid #ebd724;
+    outline: none;
+    background: transparent;
+    transition: 0.5s;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+.buttons:hover {
+    box-shadow: 0 0 5px #ebd724,
+                 0 0 10px #ebd724,
+                 0 0 30px #ebd724,
+                 0 0 60px #ebd724,
+                 0 0 120px #ebd724;
+    background: #ebd72400;
+    color: rgb(255, 255, 255);
+}
+.button:last-child {
+    border-top-color: #ebd724;
+    border-bottom-color: #ebd724;
+    color: #ebd724;
+}
+.button:last-child:hover {
+    box-shadow: 0 0 5px #ebd724,
+                0 0 10px #ebd724,
+                0 0 30px #ebd724,
+                0 0 60px #ebd724,
+                0 0 120px #ebd724;
+    background: #ebd72400;
+    color: rgb(255, 255, 255);
+}
+
+.sign{
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+#tybutton{
+    font-size: 15px;
+    width: 50px;
+    height: 60px;
+}
+
+
+

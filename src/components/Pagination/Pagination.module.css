@@ -1,0 +1,39 @@
+.button {
+    width: 200px;
+    height: 40px;
+    color: #ff5100;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    border: none;
+    border-top: 2px solid #ff5100;
+    border-bottom: 2px solid #ff5100;
+    outline: none;
+    background: transparent;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+.button:hover {
+    box-shadow: 0 0 5px #ff5100,
+                 0 0 10px #ff5100,
+                 0 0 30px #ff5100,
+                 0 0 60px #ff5100,
+                 0 0 120px #ff5100;
+    background: #ff510000;
+    color: rgb(255, 255, 255);
+}
+.button:last-child {
+    border-top-color: #ff5100;
+    border-bottom-color: #ff5100;
+    color: #ff5100;
+}
+.button:last-child:hover {
+    box-shadow: 0 0 5px #ff5100,
+                0 0 10px #ff5100,
+                0 0 30px #ff5100,
+                0 0 60px #ff5100,
+                0 0 120px #ff5100;
+    background: #ff510000;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,74 @@
+.Nav{
+    border: solid 1px black;
+    padding: 15px 0;
+    margin: 5px 50px;
+    border-radius: 8px;
+    background-color: rgba(190, 10, 10, 0.739);
+    display: flex;
+    max-height: 50px;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.links li{
+    padding: 0 15px;
+}
+
+.search{
+    width: 100%;
+    height: 50%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction:row-reverse;
+    padding-right: 20px;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    color: #ffe600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    border: none;
+    border-top: 2px solid #ffe600;
+    border-bottom: 2px solid #ffe600;
+    outline: none;
+    background: transparent;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+.button:hover{
+    box-shadow: 0 0 5px #ffe600,
+                 0 0 10px #ffe600,
+                 0 0 30px #ffe600,
+                 0 0 60px #ffe600,
+                 0 0 120px #ffe600;
+    background: #ffe60000;
+    color: rgb(255, 255, 255);
+}
+.button:last-child{
+    border-top-color: #ffe600;
+    border-bottom-color: #ffe600;
+    color: #ffe600;
+}
+.button:last-child:hover{
+    box-shadow: 0 0 5px #ffe600,
+                0 0 10px #ffe600,
+                0 0 30px #ffe600,
+                0 0 60px #ffe600,
+                0 0 120px #ffe600;
+    background: #ffe60000;
+    color: rgb(255, 255, 255);
+}
+
+.sign{
+    margin: 0;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}

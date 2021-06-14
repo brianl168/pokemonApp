@@ -1,0 +1,71 @@
+.Pokemon{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(211, 150, 37, 0.719);
+    box-shadow: 10px 5px 5px black;
+    transition: 0.5s
+}
+
+.Pokemon:hover{
+    width: 280px;
+    height: 260px;
+}
+
+.Pokemon ul{
+    list-style-type: none;
+}
+
+.header{
+    padding-top: 0;
+    font-size: 20px;
+    font-weight:bold;
+    padding-bottom: 10px;
+    border: solid 2px black;
+    margin: 0 1rem;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px black;
+    background: rgba(211, 199, 37, 0.719);
+    font-family: 'Girassol', cursive;
+}
+
+.id{
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 0 1rem;
+    font-weight: bold;
+    color:rgb(14, 1, 1);
+    font-family: 'Girassol', cursive;
+}
+
+.sprite{
+    width: 65px;
+    height: 60px;
+}
+
+.name{
+    font-size: 25px;
+}
+
+.ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.type{
+    margin:0;
+    max-width: 50px;
+    font-family: 'Girassol', cursive;
+}
+
+#type{
+    display: flex;
+    margin-top: 10px
+}
+
+.li{
+    padding-right: 10px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}

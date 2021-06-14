@@ -1,0 +1,44 @@
+.conteiner{
+    background-color:rgba(0, 0, 0, 0.609);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1500px;
+    min-width: 800px;
+    box-shadow: 5px 5px 5px rgb(212, 109, 13);
+}
+
+.Pokemons{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    row-gap: 15px;
+    column-gap: 6rem;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    min-height: 846px;
+    min-width: 1300px;
+}
+
+.notfound{
+    min-width: 854px;
+    min-height: 583px;
+}
+
+.pag{
+    background: linear-gradient(rgb(92, 87, 87), rgba(18, 162, 167, 0.431));
+    border-radius:10px
+}
+
+.bgconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.loading{
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px rgb(212, 109, 13);
+    margin-top: 10px;
+}
